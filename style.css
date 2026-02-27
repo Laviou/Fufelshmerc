@@ -1,12 +1,16 @@
 a {
-    color: blueviolet;
+    color: fuchsia;
+    text-decoration: none;
 }
-{
+
+/*Прижатие футера*/
+* {
 margin: 0;
 padding: 0;
 }
 html, body {
-height: 100%;
+    font-family: sans-serif;
+    height: 100%;
 }
 .wrapper {
 display: flex;
@@ -19,33 +23,40 @@ flex: 1 0 auto;
 .footer {
 flex: 0 0 auto;
 }
+
 .menu {
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
+
 .menu li:hover {
-    background-color: deeppink;
+    background-color: coral;
 }
+
 p {
     font-size: 16px;
     line-height: 26px;
-    color: #1F3F68
+    color: #1F3F68;
 }
+
 .hed1 {
     font-size: 64px;
-    color: #1F3F68.
+    color: blueviolet;
 }
+
 .hed2 {
     font-weight: 500;
     font-size: 44px;
-    color: #1F3F68;
+    color: darkmagenta;
 }
+
 form {
     padding-left: 50px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
+
 input {
     border: 1px solid #356EAD;
     box-sizing: border-box;
